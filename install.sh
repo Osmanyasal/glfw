@@ -10,6 +10,7 @@ if [ $# -gt 0 ]; then
     if [ "$1" = "clean" ]; then
         echo "${CGLFW} executing make clean"
         rm -rf ./build
+        mkdir build
         exit 0
     else
         echo "Unknown parameter: $1"
