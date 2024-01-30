@@ -67,3 +67,5 @@ echo "${CGLFW} cmake executed"
 
 cd build
 make
+
+sudo cp ./build/src/libglfw3.a /usr/local/lib
