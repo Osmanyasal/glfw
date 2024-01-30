@@ -55,6 +55,9 @@ if [ ${os_type} == "Linux" ]; then
 elif [ ${os_type} == "FreeBSD" ]; then
     echo "${CGLFW}: FreeBSD"
     install_freebsd_packages
+
+elif [ ${os_type} == "Darwin" ]; then
+    echo "${CGLFW}: Darwin"
 else
     echo "Unsupported operating system: ${os_type}"
     exit 1
