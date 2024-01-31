@@ -26,6 +26,9 @@
 //========================================================================
 // It is fine to use C99 in this file because it will not be built with VS
 //========================================================================
+#define POSIX_REQUIRED_STANDARD 199309L
+#define _POSIX_C_SOURCE POSIX_REQUIRED_STANDARD
+#define _POSIX_SOURCE POSIX_REQUIRED_STANDARD
 
 #include "internal.h"
 
