@@ -72,3 +72,4 @@ cd build
 make
 cd ..
 sudo cp ./build/src/libglfw3.a /usr/local/lib
+sudo cp -R ./include/GLFW /usr/include
